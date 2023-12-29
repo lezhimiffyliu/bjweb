@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(/Users/lezhiliu/Desktop/bjweb/img/IMG_2147.jpg);
+    background-image: url(img/IMG_2147.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
@@ -28,7 +28,6 @@ body {
     justify-content: space-around;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     color: #f2f2f2;
     text-align: center;
@@ -38,15 +37,18 @@ body {
     display: block;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Add an active class to highlight the current page */
 .topnav a.active {
     background-color: #8B0000;
     color: white;
 }
 
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: white;
+}
